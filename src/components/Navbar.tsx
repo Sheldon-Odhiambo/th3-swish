@@ -26,7 +26,7 @@ export default function Navbar() {
           <Link to="/" className="w-32 h-32 bg-white rounded-full flex items-center justify-center overflow-hidden border-8 border-[#1e3a8a] absolute -top-4 left-8 z-50 shadow-2xl">
             <img src="https://picsum.photos/seed/logo/100/100" alt="Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
           </Link>
-          <span className="text-xl font-bold tracking-wider ml-44">SWISH BASKETBALL</span>
+          <span className="text-xl font-bold tracking-wider ml-44">TH3 SWISH BASKETBALL</span>
         </div>
         <nav className="hidden md:flex gap-6 text-sm font-medium uppercase tracking-wide">
           {navLinks.map((link) => (
