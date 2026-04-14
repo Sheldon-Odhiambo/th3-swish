@@ -18,8 +18,8 @@ const squadData = Array.from({ length: 16 }, (_, i) => ({
 
 const staffData = [
   { name: 'Alex Vogel', pos: 'Sporting Director', img: 'https://picsum.photos/seed/staff1/400/500' },
-  { name: 'Carlo Finetti', pos: 'Head coach', img: 'https://picsum.photos/seed/staff2/400/500' },
-  { name: 'Johannes Hübner', pos: 'Assistant Coach', img: 'https://picsum.photos/seed/staff3/400/500' },
+  { name: 'Enos Tonny', pos: 'Head coach', img: '/assets/enos.jpeg' },
+  { name: 'Enos Tonny ', pos: 'Assistant Coach', img: '/assets/enos.jpeg' },
   { name: 'Shy Ely', pos: 'Assistant Coach', img: 'https://picsum.photos/seed/staff4/400/500' },
 ];
 

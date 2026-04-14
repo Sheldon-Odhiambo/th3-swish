@@ -4,9 +4,9 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const players = [
-  { id: '1', name: 'DJ Horne', no: 0, pos: 'G', born: 'October 31, 2000', size: '1.85 m', weight: '79 kg', nat: 'USA', img: 'https://picsum.photos/seed/player1/400/500' },
-  { id: '2', name: 'Noah Koch', no: 1, pos: 'G', born: 'March 22, 2007', size: '1.85 m', weight: '87 kg', nat: 'GER', img: 'https://picsum.photos/seed/player2/400/500' },
-  { id: '3', name: 'John Doe', no: 10, pos: 'F', born: 'January 1, 1999', size: '2.00 m', weight: '95 kg', nat: 'USA', img: 'https://picsum.photos/seed/player3/400/500' },
+  { id: '1', name: 'DJ Horne', no: 0, pos: 'G', born: 'October 31, 2000', size: '1.85 m', weight: '79 kg', nat: 'USA', img: '/assets/vero.jpeg' },
+  { id: '2', name: 'Noah Koch', no: 1, pos: 'G', born: 'March 22, 2007', size: '1.85 m', weight: '87 kg', nat: 'GER', img: '/assets/beyonce.jpeg' },
+  { id: '3', name: 'John Doe', no: 10, pos: 'F', born: 'January 1, 1999', size: '2.00 m', weight: '95 kg', nat: 'USA', img: '/assets/lasty.jpeg' },
 ];
 
 export default function PlayerProfilePage() {

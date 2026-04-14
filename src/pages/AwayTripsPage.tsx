@@ -25,14 +25,14 @@ export default function AwayTripsPage() {
         
         <div className="relative w-full h-64 overflow-hidden">
           <img 
-            src="https://picsum.photos/seed/awaytrips/1200/400" 
+            src="/assets/Gall3.jpeg" 
             alt="Away trips banner" 
             className="w-full h-full object-cover" 
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40 text-white">
-            <h3 className="text-4xl font-bold uppercase">AUSWÄRTSFAHRTEN</h3>
-            <p className="text-xl">- Infos & Termine -</p>
+            <h3 className="text-4xl font-bold uppercase">TH3 SWISH</h3>
+            <p className="text-xl">- Infos & Terms -</p>
           </div>
         </div>
       </main>

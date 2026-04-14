@@ -10,12 +10,12 @@ import HeadingWithWatermark from '../components/HeadingWithWatermark';
 
 export default function HomePage() {
   const newsItems = [
-    { id: '1', title: 'Swish Academics travel to Trier to face the newly', img: 'https://picsum.photos/seed/news1/600/400', date: '2026-03-15', info: 'TH3 SWISH - Match Report' },
-    { id: '2', title: 'Swish Academics lacked offensive firepower against Berlin', img: 'https://picsum.photos/seed/news2/600/400', date: '2026-03-10', info: 'TH3 SWISH - Match Report' },
-    { id: '3', title: 'Swish Academics return from FIBA break', img: 'https://picsum.photos/seed/news3/600/400', date: '2026-03-05', info: 'TH3 SWISH - Club News' },
-    { id: '4', title: 'Swish Ladies sign star point guard', img: 'https://picsum.photos/seed/news4/600/400', date: '2026-02-28', info: 'TH3 SWISH - Transfer News' },
-    { id: '5', title: 'Upcoming charity event for local youth', img: 'https://picsum.photos/seed/news5/600/400', date: '2026-02-20', info: 'TH3 SWISH - Community' },
-    { id: '6', title: 'Coach announces new defensive strategy', img: 'https://picsum.photos/seed/news6/600/400', date: '2026-02-15', info: 'TH3 SWISH - Team News' },
+    { id: '1', title: 'Swish Academics travel to Trier to face the newly', img: '/assets/Gall3.jpeg', date: '2026-03-15', info: 'TH3 SWISH - Match Report' },
+    { id: '2', title: 'Swish Academics lacked offensive firepower against Berlin', img: '/assets/Gall5.jpeg', date: '2026-03-10', info: 'TH3 SWISH - Match Report' },
+    { id: '3', title: 'Swish Academics return from FIBA break', img: '/assets/Gall12.jpeg', date: '2026-03-05', info: 'TH3 SWISH - Club News' },
+    { id: '4', title: 'Swish Ladies sign star point guard', img: '/assets/Gall11.jpeg', date: '2026-02-28', info: 'TH3 SWISH - Transfer News' },
+    { id: '5', title: 'Upcoming charity event for local youth', img: '/assets/Gall8.jpeg', date: '2026-02-20', info: 'TH3 SWISH - Community' },
+    { id: '6', title: 'Coach announces new defensive strategy', img: '/assets/Team2.jpeg', date: '2026-02-15', info: 'TH3 SWISH - Team News' },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsPerPage = 3;

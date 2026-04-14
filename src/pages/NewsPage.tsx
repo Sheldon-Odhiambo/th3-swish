@@ -6,15 +6,15 @@ import HeadingWithWatermark from '../components/HeadingWithWatermark';
 
 export default function NewsPage() {
   const allNews = [
-    { id: '1', title: 'Swish Academics travel to Trier to face the newly', img: 'https://picsum.photos/seed/news1/600/400', category: 'Match reports' },
-    { id: '2', title: 'Swish Academics lacked offensive firepower against Berlin', img: 'https://picsum.photos/seed/news2/600/400', category: 'Match reports' },
-    { id: '3', title: 'Swish Academics return from FIBA break', img: 'https://picsum.photos/seed/news3/600/400', category: 'Academics Inside' },
-    { id: '4', title: 'Swish Ladies sign star point guard', img: 'https://picsum.photos/seed/news4/600/400', category: 'BBL' },
-    { id: '5', title: 'Upcoming charity event for local youth', img: 'https://picsum.photos/seed/news5/600/400', category: 'Organization' },
-    { id: '6', title: 'Coach announces new defensive strategy', img: 'https://picsum.photos/seed/news6/600/400', category: 'Academics Inside' },
-    { id: '7', title: 'New training facility opened', img: 'https://picsum.photos/seed/news7/600/400', category: 'Organization' },
-    { id: '8', title: 'Youth academy showcase success', img: 'https://picsum.photos/seed/news8/600/400', category: 'Academics Inside' },
-    { id: '9', title: 'Sponsor renewal announced', img: 'https://picsum.photos/seed/news9/600/400', category: 'Sponsorship' },
+    { id: '1', title: 'Swish Academics travel to Trier to face the newly', img: '/assets/Gall3.jpeg', category: 'Match reports' },
+    { id: '2', title: 'Swish Academics lacked offensive firepower against Berlin', img: '/assets/Gall1.jpeg', category: 'Match reports' },
+    { id: '3', title: 'Swish Academics return from FIBA break', img: '/assets/Gall10.jpeg', category: 'Academics Inside' },
+    { id: '4', title: 'Swish Ladies sign star point guard', img: '/assets/Gall11.jpeg', category: 'BBL' },
+    { id: '5', title: 'Upcoming charity event for local youth', img: '/assets/Gall8.jpeg', category: 'Organization' },
+    { id: '6', title: 'Coach announces new defensive strategy', img: '/assets/maker1.jpeg', category: 'Academics Inside' },
+    { id: '7', title: 'New training facility opened', img: '/assets/team.jpeg', category: 'Organization' },
+    { id: '8', title: 'Youth academy showcase success', img: '/assets/Team2.jpeg', category: 'Academics Inside' },
+    { id: '9', title: 'Sponsor renewal announced', img: '/assets/vero.jpeg', category: 'Sponsorship' },
   ];
 
   const [activeCategory, setActiveCategory] = useState('All news');

@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import HeadingWithWatermark from './HeadingWithWatermark';
 
 const galleries = [
-  { title: 'MLP Academics Heidelberg vs. ALBA BERLIN', img: 'https://picsum.photos/seed/gal1/600/400', count: 28 },
-  { title: 'MLP Academics Heidelberg vs. FC Bayern Basketball', img: 'https://picsum.photos/seed/gal2/600/400', count: 18 },
-  { title: 'MLP Academics Heidelberg vs. EWE Baskets Oldenburg', img: 'https://picsum.photos/seed/gal3/600/400', count: 24 },
-  { title: 'MLP Academics Heidelberg vs. Brose Bamberg', img: 'https://picsum.photos/seed/gal4/600/400', count: 32 },
+  { title: 'Th3 Swish vs.DReam Girls', img: '/assets/team.jpeg', count: 28 },
+  { title: 'Th3 Swish vs. FC Bayern Basketball', img: '/assets/Gall9.jpeg', count: 18 },
+  { title: 'Th3 Swish vs. EWE Baskets Oldenburg', img: '/assets/Gall5.jpeg', count: 24 },
+  { title: 'Th3 Swish Academics Heidelberg vs. Brose Bamberg', img: '/assets/Gall2.jpeg', count: 32 },
 ];
 
 export default function ImageGalleries() {
