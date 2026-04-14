@@ -31,7 +31,7 @@ export default function HomePage() {
       <Navbar />
       <NextGame fixed={true} />
       <main className="px-4 py-12 pt-32 md:pt-48">
-        <p className="text-red-600 font-bold uppercase tracking-widest text-sm mb-2 mt-4">We are Swish #swishladies</p>
+        <p className="text-red-600 font-bold uppercase tracking-widest text-sm mb-2 mt-4">We are Swish #stayswishing</p>
         <HeadingWithWatermark text="TH3 SWISH Ladies" className="mb-20" />
 
         <section className="mb-12">
