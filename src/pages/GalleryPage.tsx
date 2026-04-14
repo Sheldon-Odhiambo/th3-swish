@@ -13,10 +13,36 @@ const fanZoneNavItems = [
 ];
 
 const allImages = [
-  ...Array.from({ length: 12 }, (_, i) => `https://picsum.photos/seed/all${i}/600/400`),
-  ...Array.from({ length: 4 }, (_, i) => `https://picsum.photos/seed/game1${i}/600/400`),
-  ...Array.from({ length: 4 }, (_, i) => `https://picsum.photos/seed/game2${i}/600/400`),
-  ...Array.from({ length: 4 }, (_, i) => `https://picsum.photos/seed/train${i}/600/400`),
+      "/assets/Gall12.jpeg",
+      "/assets/Gall2.jpeg",
+      "/assets/Gall3.jpeg",
+      "/assets/Dee1.jpeg",
+      "/assets/Gall5.jpeg",
+      "/assets/Gall6.jpeg",
+      "/assets/maker.jpeg",
+      "/assets/Gall9.jpeg",
+      "/assets/Gall10.jpeg",
+      "/assets/Gall1.jpeg",
+      "/assets/beyonce.jpeg",
+      "/assets/caro.jpeg",
+      "/assets/conso.jpeg",
+      "/assets/Lasty.jpeg",
+      "/assets/team.jpeg",
+      "/assets/vero.jpeg",
+      "/assets/Team2.jpeg",
+      "/assets/Gall8.jpeg",
+      "/assets/Lasty1.jpeg",
+      "/assets/Gall4.jpeg",
+
+      
+
+
+
+
+
+
+
+                  
 ];
 
 export default function GalleryPage() {
