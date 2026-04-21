@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="px-4 h-20 flex items-center justify-between">
         <div className="flex items-center gap-4 relative">
           <Link to="/" className="w-32 h-32 bg-white rounded-full flex items-center justify-center overflow-hidden border-8 border-[#1e3a8a] absolute -top-4 left-8 z-50 shadow-2xl">
-            <img src="https://picsum.photos/seed/logo/100/100" alt="Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+            <img src="/assets/th3swish-lgg.png" alt="Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
           </Link>
           <span className="text-xl font-bold tracking-wider ml-44">TH3 SWISH BASKETBALL</span>
         </div>

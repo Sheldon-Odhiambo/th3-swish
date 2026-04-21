@@ -11,7 +11,7 @@ export default function Footer() {
             Built with ❤️ <span className="text-white">SwishCulture</span>
           </div>
           <Link to="/" className="w-24 h-24 bg-white rounded-full flex items-center justify-center overflow-hidden">
-            <img src="https://picsum.photos/seed/logo/100/100" alt="Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+            <img src="/assets/th3swish-lgg.png" alt="Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
           </Link>
           <div className="w-24 h-24 bg-zinc-300 rounded-full" />
         </div>
